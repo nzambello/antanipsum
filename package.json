@@ -1,6 +1,6 @@
 {
   "name": "antanipsum-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A node fetcher for antanipsum.it. It can copy a Lorem Ipsum into clipboard or print it to stdout",
   "main": "index.js",
   "repository": {
