@@ -6,10 +6,7 @@ const { spawn } = require('child_process')
 const program = require('commander')
 const htmlToText = require('html-to-text')
 
-program
-  .version('0.1.0')
-  .option('-o, --stdout', 'print text result to stdout')
-  .parse(process.argv)
+program.option('-o, --stdout', 'print text result to stdout').parse(process.argv)
 
 const antaniURL = `https://www.antanipsum.it/antani.php?h0=1&h2=0&h3=0&h4=0&h5=0&h6=0&tags=0&n=1&size=xl`
 
