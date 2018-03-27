@@ -1,5 +1,5 @@
 # AntanIpsum
-A node fetcher for antanipsum.it. It can copy a Lorem Ipsum into clipboard or print it to stdout.
+A node fetcher for [antanipsum.it](https://www.antanipsum.it/). It can copy a Lorem Ipsum into clipboard or print it to stdout.
 
 The correct description is the one presented in Italian by the website I refer to:
 
@@ -13,7 +13,7 @@ I made this utility to directly copy a funny Lorem Ipsum, easily.
 ## Install
 ```sh
 # Yarn
-yarn add --global antanipsum-cli
+yarn global add antanipsum-cli
 
 # NPM
 npm install -g antanipsum-cli
@@ -27,5 +27,4 @@ npm install -g antanipsum-cli
 
     -o, --stdout  print text result to stdout
     -h, --help    output usage information
-
 ```
